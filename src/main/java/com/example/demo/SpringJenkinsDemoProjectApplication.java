@@ -22,6 +22,7 @@ public class SpringJenkinsDemoProjectApplication {
 	
 	public static void main(String[] args) {
 		log.info("Application executed....");
+		log.info("Application executed second time successfully...");
 		SpringApplication.run(SpringJenkinsDemoProjectApplication.class, args);
 	}
 
